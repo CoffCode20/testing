@@ -1,0 +1,13 @@
+{
+  "name": "JavaScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/index.css -o ./src/output.css --watch\n"
+  },
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
